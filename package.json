@@ -1,0 +1,35 @@
+{
+  "name": "botpegs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.7.0",
+    "hardhat": "^2.17.3"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "5.1.0",
+    "@openzeppelin/contracts-upgradeable": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.0.0",
+    "ganache-cli": "^6.12.2",
+    "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-gas-reporter": "^2.2.2",
+    "solidity-coverage": "^0.8.4"
+  }
+}
